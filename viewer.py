@@ -369,7 +369,7 @@ with gr.Blocks(title="AI2Thor Dataset Viewer") as demo:
                     scale=2,
                     elem_id="session-search-input"
                 )
-                load_session_btn = gr.Button("Load", variant="secondary", size="sm", elem_id="load-session-btn")
+                load_session_btn = gr.Button("Load session", variant="secondary", size="sm", elem_id="load-session-btn")
 
     # Progress bar at top
     progress_display = gr.Markdown(value="No session loaded", elem_classes=["progress-box"])
@@ -769,7 +769,7 @@ Session saved automatically."""
                 gr.update(visible=False), gr.update(visible=False),
                 gr.update(value="A."), gr.update(value="B."),
                 gr.update(value="C."), gr.update(value="D."),
-                "", 1, "No session", gr.update(value="Load", variant="secondary")
+                "", 1, "No session", gr.update(value="Load session", variant="secondary")
             )
 
         session_id = session_id.strip()
