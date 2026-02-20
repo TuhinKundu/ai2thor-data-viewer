@@ -3,7 +3,7 @@ Gradio application for viewing and quizzing on AI2Thor datasets.
 Keyboard-optimized for fast human evaluation with session management.
 
 Keyboard Shortcuts:
-  W / E     : Previous / Next unanswered row
+  W / E     : Previous / Next unanswered
   ↑ / ↓     : Previous / Next answered row (review completed)
   ← / →     : Previous / Next gallery image
   Q         : First gallery image
@@ -336,12 +336,13 @@ CUSTOM_HEAD = """
     .compact-row { gap: 4px !important; }
     /* Hide labels where not needed */
     .hide-label label { display: none !important; }
-    /* Session label alignment */
-    .session-label { display: flex; align-items: center; margin: 0 !important; padding: 0 8px !important; }
-    .session-label p { margin: 0 !important; white-space: nowrap; font-size: 0.85em !important; }
-    /* Smaller session search input */
-    #session-search-input input { font-size: 0.8em !important; padding: 4px 8px !important; height: auto !important; min-height: 0 !important; }
+    /* Session search in header */
+    .header-right { display: flex; flex-direction: column; justify-content: center; }
+    #session-search-input input { font-size: 0.75em !important; padding: 3px 6px !important; height: auto !important; min-height: 0 !important; }
     #session-search-input { min-width: 0 !important; }
+    #load-session-btn { font-size: 0.75em !important; }
+    /* Larger topdown image */
+    #main-image img { max-height: 280px !important; object-fit: contain !important; }
 </style>
 """
 
@@ -355,9 +356,20 @@ with gr.Blocks(title="AI2Thor Dataset Viewer") as demo:
     current_session = gr.State(None)
     correct_answer_state = gr.State("")
 
-    # Header
-    gr.Markdown("""# AI2Thor Dataset Viewer
-<small style='color:#666'>**W/E** Rows | **↑/↓** Answered | **←/→** Images | **1-4** Answer | **Space** Bookmark | **G** Go to | **N** New | **F** Finish | **S** Screenshot</small>""")
+    # Header with session search in top right
+    with gr.Row():
+        with gr.Column(scale=3):
+            gr.Markdown("""# AI2Thor Dataset Viewer
+<small style='color:#666'>**W/E** Unanswered | **↑/↓** Answered | **←/→** Images | **1-4** Answer | **Space** Bookmark | **G** Go to | **N** New | **F** Finish | **S** Screenshot</small>""")
+        with gr.Column(scale=1, elem_classes=["header-right"]):
+            with gr.Row():
+                session_search_input = gr.Textbox(
+                    placeholder="Session ID",
+                    show_label=False,
+                    scale=2,
+                    elem_id="session-search-input"
+                )
+                load_session_btn = gr.Button("Load", variant="secondary", size="sm", elem_id="load-session-btn")
 
     # Progress bar at top
     progress_display = gr.Markdown(value="No session loaded", elem_classes=["progress-box"])
@@ -403,18 +415,6 @@ with gr.Blocks(title="AI2Thor Dataset Viewer") as demo:
         prev_answered_btn = gr.Button("↑ Prev Answered", variant="secondary", elem_id="prev-answered-btn", scale=1, size="sm")
         next_answered_btn = gr.Button("↓ Next Answered", variant="secondary", elem_id="next-answered-btn", scale=1, size="sm")
 
-    # Session search bar (all in one row)
-    with gr.Row():
-        gr.Markdown("**Load Session:**", elem_classes=["session-label"])
-        session_search_input = gr.Textbox(
-            placeholder="Session ID (e.g., 20260214_120040)",
-            show_label=False,
-            scale=2,
-            elem_id="session-search-input"
-        )
-        load_session_btn = gr.Button("Load", variant="secondary", scale=1, size="sm", elem_id="load-session-btn")
-        session_search_status = gr.Textbox(value="", show_label=False, interactive=False, scale=2)
-
     # Main content - images larger, controls compact
     with gr.Row():
         # Left: Large image gallery (bigger)
@@ -432,7 +432,7 @@ with gr.Blocks(title="AI2Thor Dataset Viewer") as demo:
             main_image = gr.Image(
                 label="Topdown",
                 type="pil",
-                height=220,
+                height=280,
                 elem_id="main-image"
             )
 
@@ -769,27 +769,20 @@ Session saved automatically."""
                 gr.update(visible=False), gr.update(visible=False),
                 gr.update(value="A."), gr.update(value="B."),
                 gr.update(value="C."), gr.update(value="D."),
-                "", 1, "No session", "Enter a session ID"
+                "", 1, "No session", gr.update(value="Load", variant="secondary")
             )
 
         session_id = session_id.strip()
         loaded_session = load_session_by_id(session_id)
 
         if loaded_session is None:
-            # List available sessions for help
-            sessions = list_archived_sessions()
-            if sessions:
-                available = ", ".join([s["id"] for s in sessions[:5]])
-                status_msg = f"Not found. Available: {available}..."
-            else:
-                status_msg = "Session not found. No archived sessions."
             return (
                 None, 1, 0, None, "",
                 None, [], "", "", "",
                 gr.update(visible=False), gr.update(visible=False),
                 gr.update(value="A."), gr.update(value="B."),
                 gr.update(value="C."), gr.update(value="D."),
-                "", 1, "No session", status_msg
+                "", 1, "No session", gr.update(value="Not Found", variant="stop")
             )
 
         # Get dataset info from session
@@ -805,7 +798,7 @@ Session saved automatically."""
                 gr.update(visible=False), gr.update(visible=False),
                 gr.update(value="A."), gr.update(value="B."),
                 gr.update(value="C."), gr.update(value="D."),
-                "", 1, "No session", "Error loading dataset"
+                "", 1, "No session", gr.update(value="Error", variant="stop")
             )
 
         # Update session total questions
@@ -814,18 +807,14 @@ Session saved automatically."""
         # Set as current session
         save_current_session(loaded_session)
 
-        # Go to first row or current row
-        idx = loaded_session.get("current_row", 0)
+        # Always start at row 1
+        idx = 0
 
         # Get display results
         result = display_row_data(split, idx, dtype, loaded_session)
 
-        # Add session ID to status message
-        stats = get_session_stats(loaded_session)
-        status_msg = f"Loaded: {loaded_session['id']} ({stats['answered']}/{stats['total']} answered)"
-
-        # result has 19 elements, we need to add session_search_status as 20th
-        return result + (status_msg,)
+        # Change button to green to indicate success
+        return result + (gr.update(value="Loaded ✓", variant="primary"),)
 
     def navigate_to_answered(split, current_idx, direction, dtype, session):
         """Navigate to next/previous answered row."""
@@ -942,7 +931,7 @@ Session saved automatically."""
             main_image, image_gallery, question_text, metadata_display, row_info,
             answer_display, correctness_display,
             choice_btns[0], choice_btns[1], choice_btns[2], choice_btns[3],
-            loading_status, row_input, progress_display, session_search_status
+            loading_status, row_input, progress_display, load_session_btn
         ]
     )
 
@@ -954,7 +943,7 @@ Session saved automatically."""
             main_image, image_gallery, question_text, metadata_display, row_info,
             answer_display, correctness_display,
             choice_btns[0], choice_btns[1], choice_btns[2], choice_btns[3],
-            loading_status, row_input, progress_display, session_search_status
+            loading_status, row_input, progress_display, load_session_btn
         ]
     )
 
