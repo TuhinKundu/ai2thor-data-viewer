@@ -1,0 +1,3354 @@
+{
+  "id": "20260214_120040",
+  "created_at": "2026-02-14T12:00:40.552738",
+  "updated_at": "2026-02-19T17:47:33.241223",
+  "dataset": "Dataset 3: ai2thor-multiview-counting",
+  "split_subset": "train",
+  "total_questions": 400,
+  "answered_count": 400,
+  "correct_count": 259,
+  "incorrect_count": 141,
+  "answers": {
+    "0": {
+      "question": "Count the number of shelvingunit(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "shelvingunit",
+      "timestamp": "2026-02-14T12:28:46.243638"
+    },
+    "1": {
+      "question": "How many spoon(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-14T12:29:18.091313"
+    },
+    "2": {
+      "question": "How many pencil(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "pencil",
+      "timestamp": "2026-02-14T12:29:35.756589"
+    },
+    "3": {
+      "question": "How many basketball(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "basketball",
+      "timestamp": "2026-02-14T12:29:47.630755"
+    },
+    "4": {
+      "question": "In the video, how many distinct statues can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "statue",
+      "timestamp": "2026-02-14T12:29:56.984370"
+    },
+    "5": {
+      "question": "How many stool(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "stool",
+      "timestamp": "2026-02-14T12:30:08.036016"
+    },
+    "6": {
+      "question": "How many garbagecan(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "garbagecan",
+      "timestamp": "2026-02-14T12:30:18.872979"
+    },
+    "7": {
+      "question": "How many cellphone(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-14T12:30:27.636458"
+    },
+    "8": {
+      "question": "How many sidetable(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "sidetable",
+      "timestamp": "2026-02-14T12:30:34.429991"
+    },
+    "9": {
+      "question": "Count the number of fork(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "fork",
+      "timestamp": "2026-02-14T12:30:49.318460"
+    },
+    "10": {
+      "question": "Count the number of pen(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "pen",
+      "timestamp": "2026-02-14T12:31:06.584107"
+    },
+    "11": {
+      "question": "How many lettuce(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "lettuce",
+      "timestamp": "2026-02-14T12:31:14.762345"
+    },
+    "12": {
+      "question": "Count the number of dresser(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "dresser",
+      "timestamp": "2026-02-14T12:31:28.343324"
+    },
+    "13": {
+      "question": "Count the number of pillow(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "pillow",
+      "timestamp": "2026-02-14T12:31:41.885248"
+    },
+    "14": {
+      "question": "In the video, how many distinct pencils can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "pencil",
+      "timestamp": "2026-02-14T12:32:40.907704"
+    },
+    "15": {
+      "question": "In the video, how many distinct chairs can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "chair",
+      "timestamp": "2026-02-14T12:33:00.378609"
+    },
+    "16": {
+      "question": "Count the number of teddybear(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "teddybear",
+      "timestamp": "2026-02-14T12:33:11.128781"
+    },
+    "17": {
+      "question": "Count the number of tomato(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-14T12:33:20.532433"
+    },
+    "18": {
+      "question": "Count the number of cellphone(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-14T12:33:36.966452"
+    },
+    "19": {
+      "question": "How many egg(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "egg",
+      "timestamp": "2026-02-14T12:34:12.394191"
+    },
+    "20": {
+      "question": "Count the number of knife(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "knife",
+      "timestamp": "2026-02-14T12:34:31.894766"
+    },
+    "21": {
+      "question": "Count the number of winebottle(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-14T12:34:39.250056"
+    },
+    "22": {
+      "question": "How many watch(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "watch",
+      "timestamp": "2026-02-14T12:35:03.638260"
+    },
+    "23": {
+      "question": "In the video, how many distinct lettuces can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "lettuce",
+      "timestamp": "2026-02-14T12:35:28.397828"
+    },
+    "24": {
+      "question": "Count the number of box(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "box",
+      "timestamp": "2026-02-14T12:35:39.141292"
+    },
+    "25": {
+      "question": "Count the number of winebottle(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-14T12:35:53.123112"
+    },
+    "26": {
+      "question": "How many stool(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "stool",
+      "timestamp": "2026-02-14T12:36:08.446165"
+    },
+    "27": {
+      "question": "In the video, how many distinct lettuces can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "lettuce",
+      "timestamp": "2026-02-14T12:36:36.420251"
+    },
+    "28": {
+      "question": "How many bed(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-14T12:36:45.699030"
+    },
+    "29": {
+      "question": "Count the number of lettuce(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "lettuce",
+      "timestamp": "2026-02-14T12:37:00.291075"
+    },
+    "30": {
+      "question": "Count the number of ladle(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "ladle",
+      "timestamp": "2026-02-14T12:37:17.846832"
+    },
+    "31": {
+      "question": "In the video, how many distinct houseplants can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "houseplant",
+      "timestamp": "2026-02-14T12:37:34.681910"
+    },
+    "32": {
+      "question": "In the video, how many distinct basketballs can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "basketball",
+      "timestamp": "2026-02-14T12:37:45.418900"
+    },
+    "33": {
+      "question": "How many fork(s) are in this area?",
+      "user_answer": "D",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "fork",
+      "timestamp": "2026-02-14T12:38:12.686560"
+    },
+    "34": {
+      "question": "Count the number of dogbed(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "dogbed",
+      "timestamp": "2026-02-14T12:38:26.178529"
+    },
+    "35": {
+      "question": "How many cart(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "cart",
+      "timestamp": "2026-02-14T12:38:35.144809"
+    },
+    "36": {
+      "question": "In the video, how many distinct pencils can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "pencil",
+      "timestamp": "2026-02-14T12:38:43.884698"
+    },
+    "37": {
+      "question": "How many keychain(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "keychain",
+      "timestamp": "2026-02-14T12:39:04.783113"
+    },
+    "38": {
+      "question": "How many box(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "box",
+      "timestamp": "2026-02-14T12:39:20.162704"
+    },
+    "39": {
+      "question": "In the video, how many distinct creditcards can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "creditcard",
+      "timestamp": "2026-02-14T12:39:31.233772"
+    },
+    "40": {
+      "question": "In the video, how many distinct candles can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "candle",
+      "timestamp": "2026-02-14T12:40:39.065499"
+    },
+    "41": {
+      "question": "In the video, how many distinct butterknifes can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "butterknife",
+      "timestamp": "2026-02-14T12:40:57.436494"
+    },
+    "42": {
+      "question": "In the video, how many distinct forks can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "fork",
+      "timestamp": "2026-02-14T12:41:09.440524"
+    },
+    "43": {
+      "question": "How many statue(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "statue",
+      "timestamp": "2026-02-14T12:41:24.594520"
+    },
+    "44": {
+      "question": "Count the number of newspaper(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "newspaper",
+      "timestamp": "2026-02-14T12:41:52.379375"
+    },
+    "45": {
+      "question": "Count the number of coffeetable(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "coffeetable",
+      "timestamp": "2026-02-14T12:42:01.731388"
+    },
+    "46": {
+      "question": "Count the number of lettuce(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "lettuce",
+      "timestamp": "2026-02-14T12:42:08.980366"
+    },
+    "47": {
+      "question": "Count the number of sidetable(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "sidetable",
+      "timestamp": "2026-02-14T12:42:22.726138"
+    },
+    "48": {
+      "question": "Count the number of chair(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "chair",
+      "timestamp": "2026-02-14T12:42:37.933806"
+    },
+    "49": {
+      "question": "How many candle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "candle",
+      "timestamp": "2026-02-14T12:42:47.120886"
+    },
+    "50": {
+      "question": "In the video, how many distinct potatos can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "potato",
+      "timestamp": "2026-02-14T12:43:03.526142"
+    },
+    "51": {
+      "question": "Count the number of potato(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "potato",
+      "timestamp": "2026-02-14T12:43:35.360506"
+    },
+    "52": {
+      "question": "In the video, how many distinct stools can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "stool",
+      "timestamp": "2026-02-14T12:43:49.819947"
+    },
+    "53": {
+      "question": "How many book(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "book",
+      "timestamp": "2026-02-14T12:44:10.067689"
+    },
+    "54": {
+      "question": "How many kettle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "kettle",
+      "timestamp": "2026-02-14T12:44:18.463788"
+    },
+    "55": {
+      "question": "How many pen(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "pen",
+      "timestamp": "2026-02-14T12:44:25.985237"
+    },
+    "56": {
+      "question": "In the video, how many distinct watchs can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "watch",
+      "timestamp": "2026-02-14T12:44:38.361104"
+    },
+    "57": {
+      "question": "How many tvstand(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "tvstand",
+      "timestamp": "2026-02-14T12:44:50.505048"
+    },
+    "58": {
+      "question": "How many alarmclock(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "alarmclock",
+      "timestamp": "2026-02-14T12:45:11.784292"
+    },
+    "59": {
+      "question": "In the video, how many distinct spatulas can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-14T12:45:18.677026"
+    },
+    "60": {
+      "question": "Count the number of newspaper(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "newspaper",
+      "timestamp": "2026-02-14T12:45:26.849945"
+    },
+    "61": {
+      "question": "How many spoon(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-14T12:45:35.691094"
+    },
+    "62": {
+      "question": "In the video, how many distinct kettles can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "kettle",
+      "timestamp": "2026-02-14T12:45:47.634086"
+    },
+    "63": {
+      "question": "How many book(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "book",
+      "timestamp": "2026-02-14T12:45:58.819479"
+    },
+    "64": {
+      "question": "In the video, how many distinct cellphones can you see?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-14T12:46:12.435954"
+    },
+    "65": {
+      "question": "How many spatula(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-14T12:46:22.086120"
+    },
+    "66": {
+      "question": "Count the number of vase(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "vase",
+      "timestamp": "2026-02-14T12:46:33.103581"
+    },
+    "67": {
+      "question": "How many statue(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "statue",
+      "timestamp": "2026-02-14T12:46:46.518844"
+    },
+    "68": {
+      "question": "In the video, how many distinct knifes can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "knife",
+      "timestamp": "2026-02-14T12:46:53.819007"
+    },
+    "69": {
+      "question": "How many bottle(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "bottle",
+      "timestamp": "2026-02-14T12:47:05.256507"
+    },
+    "70": {
+      "question": "Count the number of book(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "book",
+      "timestamp": "2026-02-14T13:18:20.872756"
+    },
+    "71": {
+      "question": "In the video, how many distinct baseballbats can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "baseballbat",
+      "timestamp": "2026-02-14T13:18:43.673594"
+    },
+    "72": {
+      "question": "How many stool(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "stool",
+      "timestamp": "2026-02-14T13:18:55.775216"
+    },
+    "73": {
+      "question": "How many sink(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "sink",
+      "timestamp": "2026-02-14T13:19:16.381135"
+    },
+    "74": {
+      "question": "How many spoon(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-14T13:19:32.937708"
+    },
+    "75": {
+      "question": "Count the number of bread(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-14T13:19:42.673300"
+    },
+    "76": {
+      "question": "Count the number of desk(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "desk",
+      "timestamp": "2026-02-14T13:19:54.778815"
+    },
+    "77": {
+      "question": "In the video, how many distinct cups can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "cup",
+      "timestamp": "2026-02-14T13:20:17.856283"
+    },
+    "78": {
+      "question": "How many laptop(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "laptop",
+      "timestamp": "2026-02-14T13:20:33.736161"
+    },
+    "79": {
+      "question": "Count the number of pan(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "pan",
+      "timestamp": "2026-02-14T13:20:43.522307"
+    },
+    "80": {
+      "question": "How many bed(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-14T13:21:01.241672"
+    },
+    "81": {
+      "question": "In the video, how many distinct statues can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "statue",
+      "timestamp": "2026-02-14T13:21:10.401340"
+    },
+    "82": {
+      "question": "How many statue(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "statue",
+      "timestamp": "2026-02-14T13:21:30.016589"
+    },
+    "83": {
+      "question": "In the video, how many distinct pens can you see?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "pen",
+      "timestamp": "2026-02-14T13:21:45.434594"
+    },
+    "84": {
+      "question": "How many knife(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "knife",
+      "timestamp": "2026-02-14T13:21:54.362210"
+    },
+    "85": {
+      "question": "Count the number of knife(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "knife",
+      "timestamp": "2026-02-14T13:22:08.452643"
+    },
+    "86": {
+      "question": "In the video, how many distinct spatulas can you see?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-14T13:22:18.567455"
+    },
+    "87": {
+      "question": "How many fork(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "fork",
+      "timestamp": "2026-02-14T13:22:30.681504"
+    },
+    "88": {
+      "question": "In the video, how many distinct bowls can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "bowl",
+      "timestamp": "2026-02-14T13:22:45.705939"
+    },
+    "89": {
+      "question": "Count the number of kettle(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "kettle",
+      "timestamp": "2026-02-14T13:22:57.943316"
+    },
+    "90": {
+      "question": "In the video, how many distinct shelvingunits can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "shelvingunit",
+      "timestamp": "2026-02-14T13:23:08.593453"
+    },
+    "91": {
+      "question": "Count the number of basketball(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "basketball",
+      "timestamp": "2026-02-14T13:23:18.447945"
+    },
+    "92": {
+      "question": "How many fork(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "fork",
+      "timestamp": "2026-02-14T13:23:28.108608"
+    },
+    "93": {
+      "question": "How many toaster(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "toaster",
+      "timestamp": "2026-02-14T13:23:41.212145"
+    },
+    "94": {
+      "question": "How many papertowelroll(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "papertowelroll",
+      "timestamp": "2026-02-14T15:42:30.732995"
+    },
+    "95": {
+      "question": "How many keychain(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-14T15:42:44.192115"
+    },
+    "96": {
+      "question": "How many dumbbell(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "dumbbell",
+      "timestamp": "2026-02-14T15:42:53.965802"
+    },
+    "97": {
+      "question": "Count the number of bread(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-14T15:43:26.025036"
+    },
+    "98": {
+      "question": "In the video, how many distinct potatos can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "potato",
+      "timestamp": "2026-02-14T15:43:47.425417"
+    },
+    "99": {
+      "question": "Count the number of pot(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "pot",
+      "timestamp": "2026-02-14T15:44:01.380762"
+    },
+    "100": {
+      "question": "How many boots(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "boots",
+      "timestamp": "2026-02-14T18:13:46.460855"
+    },
+    "101": {
+      "question": "Count the number of cellphone(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-14T21:36:52.755039"
+    },
+    "102": {
+      "question": "How many lettuce(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "lettuce",
+      "timestamp": "2026-02-15T03:42:48.761193"
+    },
+    "103": {
+      "question": "Count the number of safe(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "safe",
+      "timestamp": "2026-02-15T03:42:56.579239"
+    },
+    "104": {
+      "question": "How many spoon(s) are in this area?",
+      "user_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-15T03:43:10.648362"
+    },
+    "105": {
+      "question": "Count the number of dresser(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "dresser",
+      "timestamp": "2026-02-15T03:43:24.025628"
+    },
+    "106": {
+      "question": "How many tissuebox(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "tissuebox",
+      "timestamp": "2026-02-15T03:43:33.706002"
+    },
+    "107": {
+      "question": "In the video, how many distinct beds can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-15T03:43:47.858601"
+    },
+    "108": {
+      "question": "In the video, how many distinct kettles can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "kettle",
+      "timestamp": "2026-02-15T03:43:59.003505"
+    },
+    "109": {
+      "question": "How many shelvingunit(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "shelvingunit",
+      "timestamp": "2026-02-15T03:44:37.601838"
+    },
+    "110": {
+      "question": "How many plunger(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "plunger",
+      "timestamp": "2026-02-15T03:44:48.013102"
+    },
+    "111": {
+      "question": "In the video, how many distinct cups can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "cup",
+      "timestamp": "2026-02-15T03:44:54.046024"
+    },
+    "112": {
+      "question": "How many stool(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "stool",
+      "timestamp": "2026-02-15T03:45:07.598165"
+    },
+    "113": {
+      "question": "Count the number of peppershaker(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "peppershaker",
+      "timestamp": "2026-02-15T03:45:19.744582"
+    },
+    "114": {
+      "question": "How many plate(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "plate",
+      "timestamp": "2026-02-15T03:45:28.258244"
+    },
+    "115": {
+      "question": "In the video, how many distinct candles can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "candle",
+      "timestamp": "2026-02-15T03:45:37.409471"
+    },
+    "116": {
+      "question": "In the video, how many distinct boxs can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "box",
+      "timestamp": "2026-02-15T03:45:47.777858"
+    },
+    "117": {
+      "question": "In the video, how many distinct creditcards can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "creditcard",
+      "timestamp": "2026-02-15T03:46:02.040229"
+    },
+    "118": {
+      "question": "In the video, how many distinct safes can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "safe",
+      "timestamp": "2026-02-15T03:46:19.882720"
+    },
+    "119": {
+      "question": "How many butterknife(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "butterknife",
+      "timestamp": "2026-02-15T03:46:32.340908"
+    },
+    "120": {
+      "question": "How many winebottle(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-15T03:46:45.343036"
+    },
+    "121": {
+      "question": "In the video, how many distinct candles can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "candle",
+      "timestamp": "2026-02-15T03:47:00.642221"
+    },
+    "122": {
+      "question": "How many spatula(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-16T22:13:23.532648"
+    },
+    "123": {
+      "question": "How many painting(s) are in this area?",
+      "user_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "painting",
+      "timestamp": "2026-02-16T22:13:56.269304"
+    },
+    "124": {
+      "question": "In the video, how many distinct paintings can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "painting",
+      "timestamp": "2026-02-16T22:15:32.122592"
+    },
+    "125": {
+      "question": "How many basketball(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "basketball",
+      "timestamp": "2026-02-16T22:16:17.073682"
+    },
+    "126": {
+      "question": "How many cellphone(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-16T22:16:42.226226"
+    },
+    "127": {
+      "question": "How many faucet(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "faucet",
+      "timestamp": "2026-02-16T22:16:52.522467"
+    },
+    "128": {
+      "question": "Count the number of spoon(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-16T22:17:02.835203"
+    },
+    "129": {
+      "question": "How many bowl(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "bowl",
+      "timestamp": "2026-02-16T22:17:29.683579"
+    },
+    "130": {
+      "question": "In the video, how many distinct watchs can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "watch",
+      "timestamp": "2026-02-16T22:18:03.509174"
+    },
+    "131": {
+      "question": "How many garbagecan(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "garbagecan",
+      "timestamp": "2026-02-16T22:18:16.082710"
+    },
+    "132": {
+      "question": "How many bowl(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "bowl",
+      "timestamp": "2026-02-16T22:18:28.727021"
+    },
+    "133": {
+      "question": "How many plate(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "plate",
+      "timestamp": "2026-02-16T22:20:27.001319"
+    },
+    "134": {
+      "question": "How many tissuebox(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "tissuebox",
+      "timestamp": "2026-02-16T22:20:48.045388"
+    },
+    "135": {
+      "question": "Count the number of garbagecan(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "garbagecan",
+      "timestamp": "2026-02-16T22:20:57.077645"
+    },
+    "136": {
+      "question": "In the video, how many distinct bottles can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bottle",
+      "timestamp": "2026-02-16T22:22:16.587623"
+    },
+    "137": {
+      "question": "How many sofa(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "sofa",
+      "timestamp": "2026-02-16T22:23:34.239375"
+    },
+    "138": {
+      "question": "How many kettle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "kettle",
+      "timestamp": "2026-02-16T22:24:57.209094"
+    },
+    "139": {
+      "question": "In the video, how many distinct spatulas can you see?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-16T22:25:11.331904"
+    },
+    "140": {
+      "question": "How many spatula(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-16T22:25:22.533617"
+    },
+    "141": {
+      "question": "In the video, how many distinct knifes can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "knife",
+      "timestamp": "2026-02-16T22:27:00.548074"
+    },
+    "142": {
+      "question": "Count the number of keychain(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-16T22:29:04.285452"
+    },
+    "143": {
+      "question": "How many spoon(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "spoon",
+      "timestamp": "2026-02-16T22:31:35.852020"
+    },
+    "144": {
+      "question": "How many fork(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "fork",
+      "timestamp": "2026-02-16T22:31:50.337406"
+    },
+    "145": {
+      "question": "In the video, how many distinct tissueboxs can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "tissuebox",
+      "timestamp": "2026-02-16T22:42:26.262335"
+    },
+    "146": {
+      "question": "How many tissuebox(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "tissuebox",
+      "timestamp": "2026-02-16T22:42:45.433394"
+    },
+    "399": {
+      "question": "How many fork(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "fork",
+      "timestamp": "2026-02-16T22:42:56.211745"
+    },
+    "147": {
+      "question": "In the video, how many distinct spoons can you see?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-16T22:43:04.588981"
+    },
+    "148": {
+      "question": "In the video, how many distinct diningtables can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "diningtable",
+      "timestamp": "2026-02-16T22:43:16.490929"
+    },
+    "149": {
+      "question": "Count the number of bed(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-16T22:43:23.796396"
+    },
+    "150": {
+      "question": "How many teddybear(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "teddybear",
+      "timestamp": "2026-02-16T22:44:23.332910"
+    },
+    "151": {
+      "question": "How many tomato(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-16T22:45:09.192004"
+    },
+    "152": {
+      "question": "How many tomato(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-16T22:45:18.374184"
+    },
+    "153": {
+      "question": "In the video, how many distinct boxs can you see?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "box",
+      "timestamp": "2026-02-16T22:45:42.032005"
+    },
+    "154": {
+      "question": "In the video, how many distinct forks can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "fork",
+      "timestamp": "2026-02-16T22:45:58.258414"
+    },
+    "155": {
+      "question": "How many keychain(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-16T22:46:11.638629"
+    },
+    "156": {
+      "question": "In the video, how many distinct dumbbells can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "dumbbell",
+      "timestamp": "2026-02-16T22:46:24.742657"
+    },
+    "157": {
+      "question": "Count the number of statue(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "statue",
+      "timestamp": "2026-02-16T22:46:40.815270"
+    },
+    "158": {
+      "question": "How many tomato(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-16T22:46:46.056752"
+    },
+    "159": {
+      "question": "Count the number of cellphone(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-16T22:46:51.462056"
+    },
+    "160": {
+      "question": "How many kettle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "kettle",
+      "timestamp": "2026-02-16T22:46:57.786309"
+    },
+    "161": {
+      "question": "Count the number of potato(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "potato",
+      "timestamp": "2026-02-16T22:47:06.235882"
+    },
+    "162": {
+      "question": "In the video, how many distinct diningtables can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "diningtable",
+      "timestamp": "2026-02-16T22:47:27.811584"
+    },
+    "163": {
+      "question": "Count the number of cloth(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "cloth",
+      "timestamp": "2026-02-16T22:47:50.470948"
+    },
+    "164": {
+      "question": "In the video, how many distinct laundryhampers can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "laundryhamper",
+      "timestamp": "2026-02-16T22:47:56.307098"
+    },
+    "165": {
+      "question": "How many pot(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "pot",
+      "timestamp": "2026-02-16T22:48:05.046560"
+    },
+    "166": {
+      "question": "How many egg(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "egg",
+      "timestamp": "2026-02-16T22:48:12.689080"
+    },
+    "167": {
+      "question": "How many sidetable(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "sidetable",
+      "timestamp": "2026-02-16T22:48:26.086037"
+    },
+    "168": {
+      "question": "Count the number of box(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "box",
+      "timestamp": "2026-02-16T22:48:33.463279"
+    },
+    "169": {
+      "question": "How many fork(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "fork",
+      "timestamp": "2026-02-16T22:48:37.783064"
+    },
+    "170": {
+      "question": "Count the number of vase(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "vase",
+      "timestamp": "2026-02-16T22:49:00.496583"
+    },
+    "171": {
+      "question": "How many statue(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "statue",
+      "timestamp": "2026-02-16T22:49:28.628738"
+    },
+    "172": {
+      "question": "How many spoon(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-16T22:49:34.919762"
+    },
+    "173": {
+      "question": "How many ladle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "ladle",
+      "timestamp": "2026-02-16T22:49:43.422973"
+    },
+    "174": {
+      "question": "Count the number of shelvingunit(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "shelvingunit",
+      "timestamp": "2026-02-16T22:49:48.719028"
+    },
+    "175": {
+      "question": "In the video, how many distinct sofas can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "sofa",
+      "timestamp": "2026-02-16T22:49:53.626947"
+    },
+    "176": {
+      "question": "How many bread(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-16T22:50:00.989989"
+    },
+    "177": {
+      "question": "How many chair(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "chair",
+      "timestamp": "2026-02-16T22:50:12.167438"
+    },
+    "178": {
+      "question": "In the video, how many distinct pillows can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "pillow",
+      "timestamp": "2026-02-16T22:51:24.666217"
+    },
+    "179": {
+      "question": "How many bed(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-16T22:51:30.657058"
+    },
+    "180": {
+      "question": "In the video, how many distinct paintings can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "painting",
+      "timestamp": "2026-02-16T22:51:50.213391"
+    },
+    "181": {
+      "question": "In the video, how many distinct vases can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "vase",
+      "timestamp": "2026-02-16T22:52:02.090523"
+    },
+    "182": {
+      "question": "How many houseplant(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "houseplant",
+      "timestamp": "2026-02-16T22:52:12.262640"
+    },
+    "183": {
+      "question": "Count the number of candle(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "candle",
+      "timestamp": "2026-02-16T22:52:55.755949"
+    },
+    "184": {
+      "question": "How many spoon(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "spoon",
+      "timestamp": "2026-02-16T22:53:11.523802"
+    },
+    "185": {
+      "question": "Count the number of box(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "box",
+      "timestamp": "2026-02-16T22:53:17.408292"
+    },
+    "186": {
+      "question": "In the video, how many distinct keychains can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "keychain",
+      "timestamp": "2026-02-16T22:53:44.059793"
+    },
+    "187": {
+      "question": "How many vacuumcleaner(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "vacuumcleaner",
+      "timestamp": "2026-02-16T22:53:58.843238"
+    },
+    "188": {
+      "question": "How many spatula(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-16T22:54:39.500148"
+    },
+    "189": {
+      "question": "How many winebottle(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-17T00:04:31.892375"
+    },
+    "190": {
+      "question": "In the video, how many distinct houseplants can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "houseplant",
+      "timestamp": "2026-02-17T00:04:44.547216"
+    },
+    "191": {
+      "question": "Count the number of spoon(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-17T00:25:46.677734"
+    },
+    "192": {
+      "question": "How many boots(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "boots",
+      "timestamp": "2026-02-17T00:25:52.110002"
+    },
+    "193": {
+      "question": "Count the number of cellphone(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-17T00:26:02.494226"
+    },
+    "194": {
+      "question": "Count the number of knife(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "knife",
+      "timestamp": "2026-02-17T00:26:15.004662"
+    },
+    "195": {
+      "question": "In the video, how many distinct statues can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "statue",
+      "timestamp": "2026-02-17T00:26:25.151352"
+    },
+    "196": {
+      "question": "How many saltshaker(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "saltshaker",
+      "timestamp": "2026-02-17T00:26:33.492896"
+    },
+    "197": {
+      "question": "Count the number of keychain(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-17T00:26:41.115022"
+    },
+    "198": {
+      "question": "In the video, how many distinct shelvingunits can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "shelvingunit",
+      "timestamp": "2026-02-17T00:26:54.177491"
+    },
+    "199": {
+      "question": "Count the number of tissuebox(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "tissuebox",
+      "timestamp": "2026-02-17T00:27:10.515797"
+    },
+    "200": {
+      "question": "How many knife(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "knife",
+      "timestamp": "2026-02-17T00:27:21.239946"
+    },
+    "201": {
+      "question": "How many bread(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-17T01:08:51.853486"
+    },
+    "202": {
+      "question": "How many spatula(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-17T01:09:00.865698"
+    },
+    "203": {
+      "question": "Count the number of cart(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "cart",
+      "timestamp": "2026-02-17T01:09:11.392790"
+    },
+    "204": {
+      "question": "In the video, how many distinct laptops can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "laptop",
+      "timestamp": "2026-02-17T01:09:15.969186"
+    },
+    "205": {
+      "question": "In the video, how many distinct bottles can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bottle",
+      "timestamp": "2026-02-17T01:09:33.915440"
+    },
+    "398": {
+      "question": "In the video, how many distinct pencils can you see?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "pencil",
+      "timestamp": "2026-02-17T01:09:55.152177"
+    },
+    "206": {
+      "question": "How many microwave(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "microwave",
+      "timestamp": "2026-02-17T01:11:19.230219"
+    },
+    "207": {
+      "question": "How many bottle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bottle",
+      "timestamp": "2026-02-17T01:11:26.167727"
+    },
+    "208": {
+      "question": "In the video, how many distinct statues can you see?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "statue",
+      "timestamp": "2026-02-17T01:11:34.884286"
+    },
+    "209": {
+      "question": "In the video, how many distinct cups can you see?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "cup",
+      "timestamp": "2026-02-17T01:11:48.991817"
+    },
+    "210": {
+      "question": "In the video, how many distinct spatulas can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-17T01:12:04.164891"
+    },
+    "211": {
+      "question": "In the video, how many distinct plates can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "plate",
+      "timestamp": "2026-02-17T01:12:16.340904"
+    },
+    "212": {
+      "question": "Count the number of toilet(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "toilet",
+      "timestamp": "2026-02-17T01:12:22.510807"
+    },
+    "213": {
+      "question": "How many cup(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "cup",
+      "timestamp": "2026-02-17T01:19:56.460823"
+    },
+    "214": {
+      "question": "Count the number of cup(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "cup",
+      "timestamp": "2026-02-17T01:20:05.053067"
+    },
+    "215": {
+      "question": "In the video, how many distinct cups can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "cup",
+      "timestamp": "2026-02-17T01:20:29.786661"
+    },
+    "216": {
+      "question": "How many houseplant(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "houseplant",
+      "timestamp": "2026-02-17T01:20:46.742083"
+    },
+    "217": {
+      "question": "Count the number of painting(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "painting",
+      "timestamp": "2026-02-17T02:09:13.596676"
+    },
+    "218": {
+      "question": "In the video, how many distinct diningtables can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "diningtable",
+      "timestamp": "2026-02-17T09:17:19.445258"
+    },
+    "219": {
+      "question": "How many clothesdryer(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "clothesdryer",
+      "timestamp": "2026-02-17T09:17:38.075312"
+    },
+    "220": {
+      "question": "Count the number of dishsponge(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "dishsponge",
+      "timestamp": "2026-02-17T09:39:45.874726"
+    },
+    "221": {
+      "question": "In the video, how many distinct safes can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "safe",
+      "timestamp": "2026-02-17T09:39:54.696023"
+    },
+    "222": {
+      "question": "Count the number of spraybottle(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "spraybottle",
+      "timestamp": "2026-02-17T09:40:06.580660"
+    },
+    "223": {
+      "question": "Count the number of tvstand(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "tvstand",
+      "timestamp": "2026-02-17T09:40:15.306631"
+    },
+    "224": {
+      "question": "How many stool(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "stool",
+      "timestamp": "2026-02-17T09:40:23.461654"
+    },
+    "225": {
+      "question": "Count the number of cup(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "cup",
+      "timestamp": "2026-02-17T09:40:29.848126"
+    },
+    "226": {
+      "question": "In the video, how many distinct pens can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "pen",
+      "timestamp": "2026-02-17T09:40:39.906905"
+    },
+    "227": {
+      "question": "Count the number of spoon(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "spoon",
+      "timestamp": "2026-02-17T09:40:48.856296"
+    },
+    "228": {
+      "question": "How many spatula(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "spatula",
+      "timestamp": "2026-02-17T09:41:07.268525"
+    },
+    "229": {
+      "question": "How many dogbed(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "dogbed",
+      "timestamp": "2026-02-17T09:41:26.482755"
+    },
+    "230": {
+      "question": "How many safe(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "safe",
+      "timestamp": "2026-02-17T09:41:33.441169"
+    },
+    "231": {
+      "question": "Count the number of tomato(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-17T09:41:42.077805"
+    },
+    "232": {
+      "question": "Count the number of statue(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "statue",
+      "timestamp": "2026-02-17T09:41:54.966182"
+    },
+    "233": {
+      "question": "How many chair(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "chair",
+      "timestamp": "2026-02-17T09:41:58.577062"
+    },
+    "234": {
+      "question": "In the video, how many distinct tomatos can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-17T09:42:11.762011"
+    },
+    "235": {
+      "question": "How many cellphone(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-17T09:42:19.383291"
+    },
+    "236": {
+      "question": "In the video, how many distinct pens can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "pen",
+      "timestamp": "2026-02-17T09:42:28.716251"
+    },
+    "237": {
+      "question": "In the video, how many distinct sinks can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "sink",
+      "timestamp": "2026-02-17T11:04:57.367474"
+    },
+    "238": {
+      "question": "Count the number of stool(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "stool",
+      "timestamp": "2026-02-17T11:05:21.396783"
+    },
+    "239": {
+      "question": "Count the number of desktop(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "desktop",
+      "timestamp": "2026-02-17T11:05:54.648218"
+    },
+    "240": {
+      "question": "How many plate(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "plate",
+      "timestamp": "2026-02-17T11:06:55.125066"
+    },
+    "241": {
+      "question": "Count the number of bottle(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bottle",
+      "timestamp": "2026-02-17T11:49:09.748658"
+    },
+    "242": {
+      "question": "In the video, how many distinct plungers can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "plunger",
+      "timestamp": "2026-02-17T11:49:15.984537"
+    },
+    "243": {
+      "question": "How many keychain(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-17T11:49:26.992587"
+    },
+    "244": {
+      "question": "How many keychain(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-17T11:49:48.954845"
+    },
+    "245": {
+      "question": "Count the number of pillow(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "pillow",
+      "timestamp": "2026-02-17T11:49:57.390783"
+    },
+    "246": {
+      "question": "Count the number of bed(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-17T11:50:14.564035"
+    },
+    "247": {
+      "question": "In the video, how many distinct pens can you see?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "pen",
+      "timestamp": "2026-02-17T11:53:09.120697"
+    },
+    "248": {
+      "question": "How many tomato(s) are in this area?",
+      "user_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "tomato",
+      "timestamp": "2026-02-17T11:53:21.947643"
+    },
+    "249": {
+      "question": "Count the number of toaster(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "toaster",
+      "timestamp": "2026-02-17T11:53:29.065398"
+    },
+    "250": {
+      "question": "How many keychain(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "keychain",
+      "timestamp": "2026-02-17T14:53:44.267830"
+    },
+    "251": {
+      "question": "Count the number of tomato(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "tomato",
+      "timestamp": "2026-02-17T14:53:52.950996"
+    },
+    "252": {
+      "question": "Count the number of cellphone(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-17T14:54:15.067545"
+    },
+    "253": {
+      "question": "In the video, how many distinct spatulas can you see?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-17T14:54:25.024247"
+    },
+    "254": {
+      "question": "Count the number of stool(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "stool",
+      "timestamp": "2026-02-17T14:54:36.148390"
+    },
+    "255": {
+      "question": "Count the number of tomato(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-17T14:54:44.694764"
+    },
+    "256": {
+      "question": "How many toiletpaper(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "toiletpaper",
+      "timestamp": "2026-02-17T14:55:08.313006"
+    },
+    "257": {
+      "question": "In the video, how many distinct cups can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "cup",
+      "timestamp": "2026-02-17T14:55:16.457841"
+    },
+    "258": {
+      "question": "In the video, how many distinct spoons can you see?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-17T14:55:46.803546"
+    },
+    "259": {
+      "question": "How many lettuce(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "lettuce",
+      "timestamp": "2026-02-17T14:55:54.482219"
+    },
+    "260": {
+      "question": "How many vase(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "vase",
+      "timestamp": "2026-02-17T14:57:29.401972"
+    },
+    "261": {
+      "question": "In the video, how many distinct shelvingunits can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "shelvingunit",
+      "timestamp": "2026-02-17T14:57:37.466219"
+    },
+    "262": {
+      "question": "Count the number of tomato(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-17T14:57:45.306556"
+    },
+    "263": {
+      "question": "Count the number of spatula(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-17T14:58:14.388089"
+    },
+    "264": {
+      "question": "In the video, how many distinct diningtables can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "diningtable",
+      "timestamp": "2026-02-17T14:58:33.170390"
+    },
+    "265": {
+      "question": "How many bread(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-17T14:58:52.595009"
+    },
+    "266": {
+      "question": "How many tomato(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-17T14:59:05.476773"
+    },
+    "267": {
+      "question": "How many book(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "book",
+      "timestamp": "2026-02-17T15:07:18.976105"
+    },
+    "268": {
+      "question": "Count the number of dresser(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "dresser",
+      "timestamp": "2026-02-17T15:07:47.178123"
+    },
+    "269": {
+      "question": "Count the number of mug(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "mug",
+      "timestamp": "2026-02-17T15:08:19.560287"
+    },
+    "270": {
+      "question": "How many winebottle(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-17T15:08:29.954661"
+    },
+    "271": {
+      "question": "How many potato(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "potato",
+      "timestamp": "2026-02-17T15:08:39.763175"
+    },
+    "272": {
+      "question": "Count the number of cloth(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "cloth",
+      "timestamp": "2026-02-17T15:08:56.526648"
+    },
+    "273": {
+      "question": "In the video, how many distinct baseballbats can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "baseballbat",
+      "timestamp": "2026-02-18T14:24:55.981929"
+    },
+    "274": {
+      "question": "Count the number of kettle(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "kettle",
+      "timestamp": "2026-02-18T14:39:14.624898"
+    },
+    "275": {
+      "question": "How many winebottle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-18T14:39:24.969491"
+    },
+    "276": {
+      "question": "Count the number of chair(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "chair",
+      "timestamp": "2026-02-18T15:57:41.654718"
+    },
+    "277": {
+      "question": "In the video, how many distinct keychains can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "keychain",
+      "timestamp": "2026-02-18T15:57:55.046463"
+    },
+    "278": {
+      "question": "In the video, how many distinct sidetables can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "sidetable",
+      "timestamp": "2026-02-18T16:26:52.698579"
+    },
+    "279": {
+      "question": "How many bed(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-18T16:27:04.519612"
+    },
+    "280": {
+      "question": "How many shelvingunit(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "shelvingunit",
+      "timestamp": "2026-02-18T16:27:14.944518"
+    },
+    "281": {
+      "question": "Count the number of dresser(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "dresser",
+      "timestamp": "2026-02-18T16:27:23.656766"
+    },
+    "282": {
+      "question": "How many diningtable(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "diningtable",
+      "timestamp": "2026-02-18T16:27:33.645484"
+    },
+    "283": {
+      "question": "In the video, how many distinct cups can you see?",
+      "user_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "cup",
+      "timestamp": "2026-02-18T16:27:59.430453"
+    },
+    "284": {
+      "question": "In the video, how many distinct sinks can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "sink",
+      "timestamp": "2026-02-18T16:28:08.675813"
+    },
+    "285": {
+      "question": "Count the number of garbagecan(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "garbagecan",
+      "timestamp": "2026-02-18T16:28:28.460081"
+    },
+    "286": {
+      "question": "In the video, how many distinct ladles can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "ladle",
+      "timestamp": "2026-02-18T16:28:37.509364"
+    },
+    "287": {
+      "question": "How many cup(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "cup",
+      "timestamp": "2026-02-18T16:28:51.008084"
+    },
+    "288": {
+      "question": "In the video, how many distinct forks can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "fork",
+      "timestamp": "2026-02-18T16:28:56.646067"
+    },
+    "289": {
+      "question": "How many potato(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "potato",
+      "timestamp": "2026-02-18T16:29:09.807256"
+    },
+    "290": {
+      "question": "How many sink(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "sink",
+      "timestamp": "2026-02-18T16:29:19.040527"
+    },
+    "291": {
+      "question": "Count the number of spoon(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-18T16:29:55.027014"
+    },
+    "292": {
+      "question": "In the video, how many distinct cups can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "cup",
+      "timestamp": "2026-02-18T16:36:12.134936"
+    },
+    "293": {
+      "question": "In the video, how many distinct laundryhampers can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "laundryhamper",
+      "timestamp": "2026-02-18T16:36:20.922420"
+    },
+    "294": {
+      "question": "Count the number of watch(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "watch",
+      "timestamp": "2026-02-18T16:36:27.833199"
+    },
+    "295": {
+      "question": "Count the number of bottle(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bottle",
+      "timestamp": "2026-02-18T16:37:11.897432"
+    },
+    "296": {
+      "question": "How many toilet(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "toilet",
+      "timestamp": "2026-02-18T16:37:18.785494"
+    },
+    "297": {
+      "question": "Count the number of box(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "box",
+      "timestamp": "2026-02-18T16:37:28.911484"
+    },
+    "298": {
+      "question": "In the video, how many distinct statues can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "statue",
+      "timestamp": "2026-02-18T16:37:37.848347"
+    },
+    "299": {
+      "question": "How many pen(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "pen",
+      "timestamp": "2026-02-18T16:37:46.740767"
+    },
+    "300": {
+      "question": "Count the number of apple(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "apple",
+      "timestamp": "2026-02-18T16:37:53.516479"
+    },
+    "301": {
+      "question": "How many tomato(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-18T18:15:43.052041"
+    },
+    "302": {
+      "question": "Count the number of bottle(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bottle",
+      "timestamp": "2026-02-18T19:08:24.200912"
+    },
+    "303": {
+      "question": "How many tissuebox(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "tissuebox",
+      "timestamp": "2026-02-18T22:18:17.936081"
+    },
+    "304": {
+      "question": "Count the number of bed(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-18T22:18:29.225249"
+    },
+    "305": {
+      "question": "How many bed(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-18T22:18:49.733963"
+    },
+    "306": {
+      "question": "In the video, how many distinct peppershakers can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "peppershaker",
+      "timestamp": "2026-02-18T23:29:33.751676"
+    },
+    "307": {
+      "question": "How many papertowelroll(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "papertowelroll",
+      "timestamp": "2026-02-18T23:29:46.838109"
+    },
+    "308": {
+      "question": "How many potato(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "potato",
+      "timestamp": "2026-02-18T23:29:57.577133"
+    },
+    "309": {
+      "question": "In the video, how many distinct paintings can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "painting",
+      "timestamp": "2026-02-19T09:43:56.692629"
+    },
+    "310": {
+      "question": "How many book(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "book",
+      "timestamp": "2026-02-19T09:44:09.390889"
+    },
+    "311": {
+      "question": "Count the number of candle(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "candle",
+      "timestamp": "2026-02-19T09:44:18.850293"
+    },
+    "312": {
+      "question": "Count the number of bed(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-19T09:44:44.052853"
+    },
+    "313": {
+      "question": "How many chair(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "chair",
+      "timestamp": "2026-02-19T09:44:51.193108"
+    },
+    "314": {
+      "question": "In the video, how many distinct breads can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-19T09:45:02.333167"
+    },
+    "315": {
+      "question": "How many ladle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "ladle",
+      "timestamp": "2026-02-19T09:45:16.255375"
+    },
+    "316": {
+      "question": "Count the number of book(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "book",
+      "timestamp": "2026-02-19T09:46:42.915061"
+    },
+    "317": {
+      "question": "How many potato(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "potato",
+      "timestamp": "2026-02-19T09:46:55.331646"
+    },
+    "318": {
+      "question": "In the video, how many distinct keychains can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-19T09:47:09.153742"
+    },
+    "319": {
+      "question": "How many clothesdryer(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "clothesdryer",
+      "timestamp": "2026-02-19T09:47:14.451318"
+    },
+    "320": {
+      "question": "Count the number of vacuumcleaner(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "vacuumcleaner",
+      "timestamp": "2026-02-19T09:47:22.674746"
+    },
+    "321": {
+      "question": "How many statue(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "statue",
+      "timestamp": "2026-02-19T09:47:37.235009"
+    },
+    "322": {
+      "question": "Count the number of tennisracket(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "tennisracket",
+      "timestamp": "2026-02-19T09:47:51.125592"
+    },
+    "323": {
+      "question": "How many desk(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "desk",
+      "timestamp": "2026-02-19T10:00:59.417359"
+    },
+    "324": {
+      "question": "How many painting(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "painting",
+      "timestamp": "2026-02-19T10:01:10.492735"
+    },
+    "325": {
+      "question": "How many cup(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "cup",
+      "timestamp": "2026-02-19T10:01:35.961361"
+    },
+    "326": {
+      "question": "In the video, how many distinct diningtables can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "diningtable",
+      "timestamp": "2026-02-19T10:01:47.679339"
+    },
+    "327": {
+      "question": "Count the number of book(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "book",
+      "timestamp": "2026-02-19T10:03:15.630436"
+    },
+    "328": {
+      "question": "How many sidetable(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "sidetable",
+      "timestamp": "2026-02-19T10:03:29.413374"
+    },
+    "329": {
+      "question": "In the video, how many distinct sofas can you see?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "sofa",
+      "timestamp": "2026-02-19T10:03:45.135395"
+    },
+    "330": {
+      "question": "How many spraybottle(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "spraybottle",
+      "timestamp": "2026-02-19T10:04:04.611239"
+    },
+    "331": {
+      "question": "In the video, how many distinct candles can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "candle",
+      "timestamp": "2026-02-19T10:04:20.396472"
+    },
+    "332": {
+      "question": "How many fork(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "fork",
+      "timestamp": "2026-02-19T10:04:30.851041"
+    },
+    "333": {
+      "question": "How many winebottle(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-19T10:04:38.315154"
+    },
+    "334": {
+      "question": "In the video, how many distinct spoons can you see?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-19T10:23:19.696109"
+    },
+    "335": {
+      "question": "How many safe(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "safe",
+      "timestamp": "2026-02-19T10:23:29.790594"
+    },
+    "336": {
+      "question": "How many watch(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "watch",
+      "timestamp": "2026-02-19T10:23:40.932539"
+    },
+    "337": {
+      "question": "In the video, how many distinct creditcards can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "creditcard",
+      "timestamp": "2026-02-19T10:23:56.639010"
+    },
+    "338": {
+      "question": "In the video, how many distinct boxs can you see?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "box",
+      "timestamp": "2026-02-19T13:17:26.681048"
+    },
+    "339": {
+      "question": "How many cellphone(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "cellphone",
+      "timestamp": "2026-02-19T13:27:22.731922"
+    },
+    "340": {
+      "question": "How many diningtable(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "diningtable",
+      "timestamp": "2026-02-19T13:27:31.196435"
+    },
+    "341": {
+      "question": "In the video, how many distinct houseplants can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "houseplant",
+      "timestamp": "2026-02-19T13:27:42.259473"
+    },
+    "342": {
+      "question": "How many knife(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "knife",
+      "timestamp": "2026-02-19T13:27:51.373368"
+    },
+    "343": {
+      "question": "In the video, how many distinct alarmclocks can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "alarmclock",
+      "timestamp": "2026-02-19T17:18:53.018789"
+    },
+    "344": {
+      "question": "In the video, how many distinct cups can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "cup",
+      "timestamp": "2026-02-19T17:19:06.582959"
+    },
+    "345": {
+      "question": "How many bottle(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bottle",
+      "timestamp": "2026-02-19T17:19:18.286909"
+    },
+    "346": {
+      "question": "Count the number of book(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "book",
+      "timestamp": "2026-02-19T17:19:39.677926"
+    },
+    "347": {
+      "question": "Count the number of microwave(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "microwave",
+      "timestamp": "2026-02-19T17:19:53.039114"
+    },
+    "348": {
+      "question": "How many garbagebag(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "garbagebag",
+      "timestamp": "2026-02-19T17:19:58.893628"
+    },
+    "349": {
+      "question": "In the video, how many distinct winebottles can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-19T17:20:03.905838"
+    },
+    "350": {
+      "question": "In the video, how many distinct books can you see?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "book",
+      "timestamp": "2026-02-19T17:20:09.801770"
+    },
+    "351": {
+      "question": "Count the number of spatula(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spatula",
+      "timestamp": "2026-02-19T17:20:17.669309"
+    },
+    "352": {
+      "question": "In the video, how many distinct books can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "book",
+      "timestamp": "2026-02-19T17:20:24.534004"
+    },
+    "353": {
+      "question": "Count the number of winebottle(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-19T17:20:32.721230"
+    },
+    "354": {
+      "question": "How many box(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "box",
+      "timestamp": "2026-02-19T17:20:40.818999"
+    },
+    "355": {
+      "question": "How many bowl(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "bowl",
+      "timestamp": "2026-02-19T17:20:49.851982"
+    },
+    "356": {
+      "question": "How many garbagecan(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "garbagecan",
+      "timestamp": "2026-02-19T17:21:10.890861"
+    },
+    "357": {
+      "question": "How many box(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "box",
+      "timestamp": "2026-02-19T17:21:20.511350"
+    },
+    "358": {
+      "question": "In the video, how many distinct keychains can you see?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-19T17:21:42.365190"
+    },
+    "359": {
+      "question": "How many pencil(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "pencil",
+      "timestamp": "2026-02-19T17:21:50.679491"
+    },
+    "360": {
+      "question": "Count the number of bread(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-19T17:21:58.504915"
+    },
+    "361": {
+      "question": "How many potato(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "potato",
+      "timestamp": "2026-02-19T17:22:36.407060"
+    },
+    "362": {
+      "question": "How many safe(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "safe",
+      "timestamp": "2026-02-19T17:22:45.173160"
+    },
+    "363": {
+      "question": "How many bread(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-19T17:23:07.219540"
+    },
+    "364": {
+      "question": "In the video, how many distinct dressers can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "dresser",
+      "timestamp": "2026-02-19T17:23:16.950404"
+    },
+    "365": {
+      "question": "How many knife(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "knife",
+      "timestamp": "2026-02-19T17:23:25.705339"
+    },
+    "366": {
+      "question": "Count the number of ladle(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "ladle",
+      "timestamp": "2026-02-19T17:23:35.460110"
+    },
+    "367": {
+      "question": "In the video, how many distinct boxs can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "box",
+      "timestamp": "2026-02-19T17:24:04.313985"
+    },
+    "368": {
+      "question": "Count the number of bed(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-19T17:24:12.298528"
+    },
+    "369": {
+      "question": "How many shelvingunit(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "shelvingunit",
+      "timestamp": "2026-02-19T17:24:21.243331"
+    },
+    "370": {
+      "question": "Count the number of tomato(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "tomato",
+      "timestamp": "2026-02-19T17:24:29.189893"
+    },
+    "371": {
+      "question": "In the video, how many distinct potatos can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "potato",
+      "timestamp": "2026-02-19T17:24:35.933025"
+    },
+    "372": {
+      "question": "Count the number of chair(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "chair",
+      "timestamp": "2026-02-19T17:24:50.052893"
+    },
+    "373": {
+      "question": "Count the number of winebottle(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-19T17:24:58.027285"
+    },
+    "374": {
+      "question": "How many ladle(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "ladle",
+      "timestamp": "2026-02-19T17:25:05.018354"
+    },
+    "375": {
+      "question": "How many bowl(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "bowl",
+      "timestamp": "2026-02-19T17:25:15.243889"
+    },
+    "376": {
+      "question": "Count the number of painting(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "painting",
+      "timestamp": "2026-02-19T17:25:37.925330"
+    },
+    "377": {
+      "question": "Count the number of keychain(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "keychain",
+      "timestamp": "2026-02-19T17:25:49.297134"
+    },
+    "378": {
+      "question": "Count the number of winebottle(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "winebottle",
+      "timestamp": "2026-02-19T17:25:57.954092"
+    },
+    "379": {
+      "question": "Count the number of saltshaker(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "saltshaker",
+      "timestamp": "2026-02-19T17:26:10.772572"
+    },
+    "380": {
+      "question": "In the video, how many distinct butterknifes can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "butterknife",
+      "timestamp": "2026-02-19T17:26:22.404553"
+    },
+    "381": {
+      "question": "How many knife(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "knife",
+      "timestamp": "2026-02-19T17:26:36.494061"
+    },
+    "382": {
+      "question": "In the video, how many distinct sidetables can you see?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "sidetable",
+      "timestamp": "2026-02-19T17:26:44.425282"
+    },
+    "383": {
+      "question": "How many ladle(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "ladle",
+      "timestamp": "2026-02-19T17:26:52.279417"
+    },
+    "384": {
+      "question": "In the video, how many distinct breads can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-19T17:27:09.633351"
+    },
+    "385": {
+      "question": "Count the number of bottle(s) visible in the explored area.",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bottle",
+      "timestamp": "2026-02-19T17:27:18.419399"
+    },
+    "386": {
+      "question": "How many box(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "box",
+      "timestamp": "2026-02-19T17:27:24.605067"
+    },
+    "387": {
+      "question": "Count the number of pillow(s) visible in the explored area.",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "pillow",
+      "timestamp": "2026-02-19T17:27:31.885650"
+    },
+    "388": {
+      "question": "In the video, how many distinct potatos can you see?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "potato",
+      "timestamp": "2026-02-19T17:27:42.213193"
+    },
+    "389": {
+      "question": "How many garbagebag(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "garbagebag",
+      "timestamp": "2026-02-19T17:27:50.337061"
+    },
+    "390": {
+      "question": "Count the number of pencil(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "pencil",
+      "timestamp": "2026-02-19T17:27:58.842931"
+    },
+    "391": {
+      "question": "In the video, how many distinct creditcards can you see?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "creditcard",
+      "timestamp": "2026-02-19T17:28:07.867303"
+    },
+    "392": {
+      "question": "How many spoon(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "query_object": "spoon",
+      "timestamp": "2026-02-19T17:28:17.844304"
+    },
+    "393": {
+      "question": "How many bread(s) are in this area?",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "query_object": "bread",
+      "timestamp": "2026-02-19T17:28:33.676988"
+    },
+    "394": {
+      "question": "How many tvstand(s) are in this area?",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true,
+      "query_object": "tvstand",
+      "timestamp": "2026-02-19T17:28:43.756717"
+    },
+    "395": {
+      "question": "Count the number of sink(s) visible in the explored area.",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false,
+      "query_object": "sink",
+      "timestamp": "2026-02-19T17:28:54.470400"
+    },
+    "396": {
+      "question": "How many bed(s) are in this area?",
+      "user_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "query_object": "bed",
+      "timestamp": "2026-02-19T17:29:07.113218"
+    },
+    "397": {
+      "question": "How many bottle(s) are in this area?",
+      "user_answer": "D",
+      "correct_answer": "A",
+      "is_correct": false,
+      "query_object": "bottle",
+      "timestamp": "2026-02-19T17:29:16.576081"
+    }
+  },
+  "bookmarks": [
+    1,
+    2,
+    9,
+    14,
+    18,
+    19,
+    20,
+    22,
+    29,
+    30,
+    33,
+    39,
+    40,
+    41,
+    42,
+    50,
+    51,
+    55,
+    56,
+    59,
+    61,
+    65,
+    66,
+    67,
+    68,
+    74,
+    77,
+    82,
+    83,
+    86,
+    87,
+    92,
+    94,
+    95,
+    104,
+    117,
+    122,
+    126,
+    128,
+    129,
+    130,
+    132,
+    136,
+    140,
+    141,
+    142,
+    144,
+    145,
+    146,
+    399,
+    147,
+    154,
+    155,
+    159,
+    161,
+    163,
+    166,
+    169,
+    172,
+    173,
+    182,
+    183,
+    185,
+    188,
+    191,
+    193,
+    194,
+    197,
+    199,
+    200,
+    202,
+    207,
+    210,
+    214,
+    213,
+    215,
+    222,
+    225,
+    226,
+    227,
+    228,
+    236,
+    243,
+    244,
+    247,
+    250,
+    253,
+    257,
+    258,
+    260,
+    263,
+    264,
+    267,
+    272,
+    283,
+    286,
+    288,
+    289,
+    290,
+    291,
+    292,
+    294,
+    299,
+    303,
+    306,
+    307,
+    310,
+    317,
+    318,
+    321,
+    327,
+    329,
+    332,
+    334,
+    336,
+    337,
+    339,
+    342,
+    344,
+    345,
+    351,
+    355,
+    357,
+    358,
+    361,
+    362,
+    365,
+    366,
+    375,
+    377,
+    379,
+    381,
+    383,
+    390,
+    391,
+    392,
+    395
+  ],
+  "current_row": 44,
+  "archived_at": "2026-02-19T17:48:24.577057"
+}
